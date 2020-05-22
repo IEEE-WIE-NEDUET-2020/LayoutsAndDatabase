@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">ReminderApp</string>
+
+    <string-array name="categories">
+        <item>Test</item>
+        <item>Quiz</item>
+    </string-array>
+    <string name="title_activity_scheduled">ScheduledActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+
+    <string-array name="days_of_week">
+        <item>Select a day</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+    <string-array name="subject_names">
+        <item>Select a subject</item>
+        <item>Computer Organization and Design</item>
+        <item>Database Management Systems</item>
+        <item>Linear Algebra and Odinary Differential Equations</item>
+        <item>Professional Ethics</item>
+        <item>Signals and Systems</item>
+    </string-array>
+
+    <string-array name="course_codes">
+        <item>Select course code</item>
+        <item>CS-221</item>
+        <item>CS-222</item>
+        <item>MT-222</item>
+        <item>HS-219</item>
+        <item>CS-215</item>
+    </string-array>
+
+    <string-array name="timings">
+        <item>08:30 TO 09:20</item>
+        <item>09:20 TO 10:10</item>
+        <item>10:10 TO 11:00</item>
+        <item>11:30 TO 12:20</item>
+        <item>12:20 TO 13:10</item>
+        <item>14:00 TO 14:50</item>
+        <item>14:50 TO 15:40</item>
+        <item>15:40 TO 16:30</item>
+
+
+    </string-array>
+
+
+    <string-array name="timings_friday">
+        <item>08:30 TO 09:20</item>
+        <item>09:20 TO 10:10</item>
+        <item>10:10 TO 11:00</item>
+        <item>11:20 TO 12:10</item>
+        <item>12:10 TO 13:00</item>
+        <item>14:30 TO 15:20</item>
+        <item>15:20 TO 16:10</item>
+
+    </string-array>
+    <string-array name="prac_subjects">
+        <item>Select a subject</item>
+        <item>LAB: Computer Organization and Design</item>
+        <item>LAB: Database Management Systems</item>
+        <item>LAB: Signals and Systems</item>
+
+
+    </string-array>
+
+    <string-array name="prac_codes">
+        <item>Select course code</item>
+        <item>CS-221</item>
+        <item>CS-222</item>
+        <item>CS-215</item>
+    </string-array>
+
+
+    <string name="title_activity_schedule2">ScheduleActivity2</string>
+</resources>

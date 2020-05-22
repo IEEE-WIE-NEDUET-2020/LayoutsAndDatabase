@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+   >
+    <Button
+        android:id="@+id/color_button1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="45dp"
+        android:backgroundTint="@color/red_circle"
+        android:background="@drawable/color_circles"/>
+
+    <Button
+        android:id="@+id/color_button2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="105dp"
+        android:background="@drawable/color_circles"
+        android:backgroundTint="@color/orange_circle"/>
+
+    <Button
+        android:id="@+id/color_button3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="165dp"
+        android:background="@drawable/color_circles"
+        android:backgroundTint="@color/yellow_circle"/>
+    <Button
+        android:id="@+id/color_button4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="225dp"
+        android:background="@drawable/color_circles"
+        android:backgroundTint="@color/grass_green_circle"/>
+    <Button
+        android:id="@+id/color_button5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="45dp"
+        android:background="@drawable/color_circles"
+        android:backgroundTint="@color/firoze_circle"/>
+    <Button
+        android:id="@+id/color_button6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/color_circles"
+        android:backgroundTint="@color/blue_circle"/>
+    <Button
+        android:id="@+id/color_button7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="165dp"
+        android:background="@drawable/color_circles"
+        android:backgroundTint="@color/dull_pink_circle"/>
+    <Button
+        android:id="@+id/color_button8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/color_circles"
+        android:backgroundTint="@color/purple_circle"/>
+
+
+
+</RelativeLayout>

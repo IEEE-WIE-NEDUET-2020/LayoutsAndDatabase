@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/new1"
+    android:elevation="5dp">
+
+    <TextView
+        android:id="@+id/toolbar_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textColor="@color/mywhite"
+        android:textSize="20dp"
+        android:typeface="monospace" />
+
+</androidx.appcompat.widget.Toolbar>

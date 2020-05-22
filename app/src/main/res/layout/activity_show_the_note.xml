@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_gravity="center"
+android:orientation="vertical"
+    >
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:id="@+id/myLinearLayout">
+
+    <ImageView
+        android:id="@+id/note_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <TextView
+        android:id="@+id/note_textView_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Title"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/note_textView_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Note"
+        android:textSize="20dp"/>
+
+    <ProgressBar
+
+        android:id="@+id/progress_circular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progress="80"
+        android:layout_gravity="center"
+        android:indeterminateDrawable="@drawable/progress_background" />
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

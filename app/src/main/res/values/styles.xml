@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/new1</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/darkpurple</item>
+
+
+        <!--        <item name="android:textSize">15sp</item>-->
+    </style>
+
+
+    <style name="lightAppTheme" parent="AppTheme">
+
+        <item name="android:activatedBackgroundIndicator">@color/background1</item>
+        <item name="android:background">?android:attr/activatedBackgroundIndicator</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/background3</item>
+        <item name="android:windowBackground">@drawable/dialog_border</item>
+    </style>
+
+
+</resources>

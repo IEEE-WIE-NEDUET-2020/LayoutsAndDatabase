@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:orientation="vertical">-->
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="5dp"
+    android:elevation="2dp">
+<!--    app:cardCornerRadius="8dp"-->
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parent_layout">
+
+            <ImageView
+                android:id="@+id/myimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/textOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold"
+                android:layout_below="@+id/myimage"
+                android:paddingBottom="10dp"
+                android:paddingTop="5dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                />
+
+
+            <TextView
+                android:id="@+id/textTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:textSize="20dp"
+                android:layout_below="@+id/textOne"
+                android:paddingTop="5dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="5dp"
+                android:gravity="center_vertical"
+                />
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+

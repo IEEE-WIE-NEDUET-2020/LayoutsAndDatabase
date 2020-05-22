@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/myRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="260dp"
+                android:layout_height="180dp"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/borders"
+                android:text="8:30-ONWARDS"
+                android:textColor="#072077"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:textSize="20sp"
+                android:typeface="monospace" />
+
+            <Spinner
+                android:id="@+id/subject1"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="110dp" />
+
+            <Spinner
+                android:id="@+id/code1"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/subject1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/myRelativeLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/time2"
+                android:layout_width="260dp"
+                android:layout_height="180dp"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/borders"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:textSize="20sp"
+                android:typeface="monospace"
+                android:layout_centerHorizontal="true"
+                android:text="11:00-ONWARDS"
+                android:textColor="#072077"
+                />
+
+            <Spinner
+                android:id="@+id/subject2"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="80dp"
+                />
+
+            <Spinner
+                android:id="@+id/code2"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/subject2"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/myRelativeLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/time3"
+                android:layout_width="260dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/borders"
+                android:padding="2dp"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:textSize="20sp"
+                android:typeface="monospace"
+                android:layout_centerHorizontal="true"
+                android:text="14:30-ONWARDS "
+                android:textColor="#072077"
+
+                />
+            <Spinner
+                android:id="@+id/subject3"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="80dp"
+                />
+
+            <Spinner
+                android:id="@+id/code3"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/subject3"
+                />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

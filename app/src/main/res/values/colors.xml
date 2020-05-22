@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#afdcec  </color>
+<!--    <color name="colorAccent">#D81B60</color>-->
+
+    <color name="new1">#8b0a50</color>
+    <color name="darkpurple">#551033</color>
+
+
+
+    <color name="myblue">#0009ff</color>
+    <color name="mywhite">#FFFFFF</color>
+
+    <color name="lightpurple">#C71585</color>
+    <color name="darkpink">#ee1289</color>
+    <color name="navy">#000080</color>
+
+<!--    light colors-->
+    <color name="pink">#FFCCCC</color>
+    <color name="purple">#CC99FF</color>
+    <color name="blue">#66b2ff</color>
+    <color name="green">#ccff99</color>
+    <color name="peach">#ffcc99</color>
+    <color name="yellow">#ffff99</color>
+    <color name="firoze">#99ffcc</color>
+
+<!--    pink shaades-->
+<!--    #051e3e • #251e3e • #451e3e • #651e3e • #851e3e-->
+    <color name="first">#66b2ff</color>
+    <color name="second">#c1e1d2</color>
+    <color name="third">#f6f8e8</color>
+    <color name="fourth">#fec994</color>
+    <color name="fifth">#fed9c9</color>
+    <color name="sixth">#ffefd8</color>
+
+
+
+    <color name="background1">#afdcec </color>
+    <color name="background2">#cfecec </color>
+    <color name="background3">#ebf4fa </color>
+    <color name="textcolor">#2b3856 </color>
+
+    <color name="dialogBackground2">#afdcec </color>
+    <color name="dialogBackground">#A9CCE3   </color>
+    <color name="dialogFront">#cfecec </color>
+
+
+    <color name="red_circle">#d93636</color>
+    <color name="orange_circle">#fb861a</color>
+    <color name="yellow_circle">#fed600</color>
+    <color name="grass_green_circle">#b1dd27</color>
+    <color name="firoze_circle">#6fdcb8</color>
+    <color name="blue_circle">#67c8ff</color>
+    <color name="dull_pink_circle">#dca690</color>
+    <color name="purple_circle">#e599e2</color>
+
+
+</resources>

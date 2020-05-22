@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    <include-->
+<!--        android:id="@+id/toolbar"-->
+<!--        layout="@layout/toolbar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+
+    <ScrollView
+        android:layout_width="427dp"
+        android:layout_height="729dp"
+        android:fillViewport="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/subject1"
+                android:layout_width="390dp"
+                android:layout_height="202dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/round_button"
+                android:backgroundTint="@color/first"
+
+                android:text="Button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+            <Button
+                android:id="@+id/subject2"
+                android:layout_width="390dp"
+                android:layout_height="202dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:backgroundTint="@color/second"
+                android:text="Button"
+                app:layout_constraintBottom_toTopOf="@+id/subject3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.487"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/subject1"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/subject3"
+                android:layout_width="387dp"
+                android:layout_height="211dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:backgroundTint="@color/third"
+                android:text="Button"
+                app:layout_constraintBottom_toTopOf="@+id/subject4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/subject4"
+                android:layout_width="390dp"
+                android:layout_height="202dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:backgroundTint="@color/fourth"
+                android:text="Button"
+                app:layout_constraintBottom_toTopOf="@+id/subject5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/subject5"
+                android:layout_width="385dp"
+                android:layout_height="202dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:backgroundTint="@color/fifth"
+                android:text="Button"
+                app:layout_constraintBottom_toTopOf="@+id/subject6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/subject6"
+                android:layout_width="390dp"
+                android:layout_height="202dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:backgroundTint="@color/sixth"
+                android:text="Button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <!--        app:srcCompat="@android:drawable/ic_input_add" />-->
+
+    <!--        -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
